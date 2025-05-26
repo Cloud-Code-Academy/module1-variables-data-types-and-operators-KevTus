@@ -158,10 +158,10 @@ public with sharing class VariablesDataTypesOperators {
 	 * @return The complete sentence as a single String.
 	 */
 	public static String createSentence(String noun, String verb, String endingPunctuation) {
-        If (noun == null || verb == null || endingPunctuation == null) { 
+        if (noun == null || verb == null || endingPunctuation == null) { 
             return null;
         }
-		return 'The' + noun + 'is' + verb + endingPunctuation; 
+		return 'The ' + noun + ' is ' + verb + endingPunctuation; 
 	}
 
     /**
@@ -261,7 +261,7 @@ public with sharing class VariablesDataTypesOperators {
         // The result of the expression as it is right now is 43. 
         // You should add parentheses so that the result of the expression becomes 8.
         Integer answer = (48 - 15 + 5 * 2) - 35;
-        return null; 
+        return answer; 
     }
 
     /**
